@@ -82,7 +82,7 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div class="App">
+      <div className="App">
         <div className="header">GitHub Cards App</div>
         <Form onSubmit={this.addNewProfile} />
         <CardList profiles={this.state.profiles} />
